@@ -46,3 +46,7 @@ li a:hover{ /*Color change on hover*/
 	background-color: #00a8a8;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#nav-active { /*Changes background color to turquoise when nav is selected*/
+	background-color: #00a8a8;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

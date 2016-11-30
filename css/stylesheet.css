@@ -1,0 +1,52 @@
+/*Formatting lives Here*/
+/*<link rel="stylesheet" type="text/css" href="css/stylesheet.css">*/
+/*If a directory down (docs), href ../css/stylesheet.css*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* NOTE: External css is for general or large amounts of formatting*/
+/* Basically, if all you want to to is change the margin on one element, use a <style> tag*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body{ /* Applies to all linked html body elements, unless it applies to all pages use a div */
+	font-family: 'Roboto', sans-serif;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*Side Navbar*/
+.nav{
+	transition: 0.5s; /*Can tweak later*/
+	height: 100%;
+	width: 0;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #008080; /*Teal*/
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*Links*/
+.nav a{
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	color: #ffffff; /*White for now - WOW BLATANT RACISM DIEGO*/
+	display: block;
+	transition: 0.3s; /*Can tweak later*/
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*Hover*/
+.sidenav a:hover, .offcanvas a:focus{
+	color: #00ffff;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+/*Mobile Compatibility, leave commented for now*/
+/*@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}*/

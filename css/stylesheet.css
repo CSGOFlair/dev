@@ -1,0 +1,48 @@
+/*Formatting lives Here*/
+/*<link rel="stylesheet" type="text/css" href="css/stylesheet.css">*/
+/*If a directory down (docs), href ../css/stylesheet.css*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* NOTE: External css is for general or large amounts of formatting*/
+/* Basically, if all you want to to is change the margin on one element, use a <style> tag*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body{ /* Applies to all linked html body elements, unless it applies to all pages use a div */
+	font-family: 'Roboto', sans-serif;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*Navbar*/
+ul{ /*The actual bar*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2c2c2c;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+li{ /*Each element*/
+	float: left;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+li a{ /*Block and link*/
+	display: block;
+	color: #5ae4b8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+a:hover{ /*On hover*/
+	background-color: #111;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.active{ /*Set class for active elements*/
+	background-color: green;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#rightside{ /*Justify content to the right*/
+	float: right;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+li a:hover{ /*Color change on hover*/
+	background-color: #00a8a8;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

@@ -1,25 +1,4 @@
-// crappy rip-off of fn.lua, only worse because billard wrote it
-
-// Indentifies a value
-function Id(a)
-{
-	return a;
-}
-
-// Turns a value into an array
-function List(a)
-{
-	return [a];
-}
-
-// Flips two arguments
-function Flip(f)
-{
-	return function(a, b)
-	{
-		return f(b, a);
-	};
-}
+// Crappy rip-off of fn.lua, only worse because Billard wrote it
 
 // Applies a single argument to a function
 function Apply(f, a)
@@ -40,16 +19,41 @@ function Curry(f)
 	};
 }
 
-// Runs a value through a function until said function returns true
+// Retrieve a number's factorial through recursion
+// Factorials are the product of a number and every number between it and 1
 // Example:
-// Until(Id, false) = Mayhem
-function Until(f, v)
+// Factorial(6) = 6 * 5 * 4 * 3 * 2 = 720
+function Factorial(num)
 {
-	if (f(v))
+	if (num <= 0)
 	{
-		return v;
+		return 1;
 	}
-	return Until(f, f(v));
+	else
+	{
+		return (num * Factorial(a - 1));
+	}
+}
+
+// Flips two arguments
+function Flip(f)
+{
+	return function(a, b)
+	{
+		return f(b, a);
+	};
+}
+
+// Indentifies a value
+function Id(a)
+{
+	return a;
+}
+
+// Turns a value into an array
+function List(a)
+{
+	return [a];
 }
 
 // Run a function over every value in an array
@@ -83,18 +87,20 @@ function Sum(n)
 	return f;
 }
 
-// Retrieve a number's factorial through recursion
-// Factorials are the product of a number and every number between it and 1
-// Example:
-// Factorial(6) = 6 * 5 * 4 * 3 * 2 = 720
-function Factorial(num)
+// Run a function twice with a given argument
+function Twice(f, a)
 {
-	if (num <= 0)
+	return f(f(a));
+}
+
+// Runs a value through a function until said function returns true
+// Example:
+// Until(Id, false) = Mayhem
+function Until(f, v)
+{
+	if (f(v))
 	{
-		return 1;
+		return v;
 	}
-	else
-	{
-		return (num * Factorial(a - 1));
-	}
+	return Until(f, f(v));
 }

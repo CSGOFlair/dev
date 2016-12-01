@@ -6,7 +6,7 @@ function Id(a)
 	return a;
 }
 
-// Turns a value into a list
+// Turns a value into an array
 function List(a)
 {
 	return [a];

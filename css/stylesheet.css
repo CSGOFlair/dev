@@ -38,7 +38,7 @@ a:hover{ /*On hover*/
 	background-color: green;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-#rightside{ /*Justify content to the right*/
+rightside{ /*Justify content to the right*/
 	float: right;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -46,7 +46,10 @@ li a:hover{ /*Color change on hover*/
 	background-color: #00a8a8;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-#nav-active { /*Changes background color to turquoise when nav is selected*/
+nav-active { /*Changes background color to turquoise when nav is selected*/
 	background-color: #00a8a8;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.secondary_csf {
+	background-color: #e1e1e1;
+}

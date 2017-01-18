@@ -2,8 +2,9 @@ $(document).ready(function(){
    $('.csf-logo-h').css({"font-family": "\'Roboto\'", "font-size": "70px", "text-align": "center", "margin-top": "80px"});
    $('.csf-logo-s').css({"font-family": "\'Roboto\'", "font-size": "20px", "text-align": "center", "margin-top": "-35px"});
    $('.csf-social-h').css({"font-family": "\'Roboto\'", "text-align": "center"});
-   $('.csf-social-b').css({"font-family": "\'Roboto\'", "text-align": "center", "width": "160px", "height": "50px", "margin-bottom": "13px"});
+   $('.csf-social-b').css({"font-family": "\'Roboto\'", "text-align": "center", "width": "160px", "height": "50px", "font-size": "40px"});
 });
+
 
 
 var g_Categories = [],

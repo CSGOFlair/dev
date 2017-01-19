@@ -44,3 +44,9 @@ function BuildCategories() {
 		// Create list items of something
 	}
 }
+
+window.onload = function() {
+  if(window.innerHeight > window.innerWidth) {
+  alert('WARNING! This page looks sort of wierd on mobile devices, it is reccomended that you swap to landscape mode and continue.');
+}
+};

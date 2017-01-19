@@ -61,3 +61,8 @@ body{
 .csf-logo-s {
    color: white;
 }
+
+.csf-social-b:hover {
+   color: black;
+   background-color: white;
+}

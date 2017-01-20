@@ -43,9 +43,21 @@ body{
    color: white;
    margin-top: 20px;
    text-align: center;
+   padding: 15px 35px 15px 35px;
+   font-size: 10px;
+}
+
+.csf-primary-b{
+   background-color: rgba(255,255,255, 0.0); /*Transparent*/
+   border-color: white;
+   border-radius: 4px;
+   color: white;
+   margin-top: 20px;
+   text-align: center;
    padding: 20px 40px 20px 40px;
    font-size: 15px;
 }
+
 
 .csf-social-h{
    color: white;

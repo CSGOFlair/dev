@@ -78,8 +78,7 @@ body{
 }
 
 button#csf-getstarted-l{
-   vertical-align: middle;
 }
 span#csf-getstarted-l{
-
+  padding-left: 50%;
 }

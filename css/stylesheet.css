@@ -51,18 +51,24 @@ body{
    color: white;
    font-family: 'Roboto';
    align-items: center;
-   font-size:
-}
-
-.csf-logo-h {
-   color: white;
 }
 
 .csf-logo-s {
    color: white;
+   font-family: 'Roboto';
+   text-align: center;
+   font-size: 35px;
 }
 
 .csf-social-b:hover {
    color: black;
    background-color: white;
+   transition: 0.4s;
+}
+
+button#csf-getstarted-l{
+   vertical-align: middle;
+}
+span#csf-getstarted-l{
+
 }

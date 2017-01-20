@@ -57,3 +57,7 @@ window.onload = function() {
   alert('WARNING! This page looks sort of wierd on mobile devices, it is reccomended that you swap to landscape mode and continue.');
 }
 };
+
+function getStarted() {
+   alert('Unfortunately, this website is not complete yet. This link will be clickable when it is finished. For now, you can help contribute to the project by clicking the "GitHub" link below.');
+}

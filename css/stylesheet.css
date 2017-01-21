@@ -82,3 +82,17 @@ button#csf-getstarted-l{
 span#csf-getstarted-l{
   padding-left: 50%;
 }
+
+.disabled{
+   opacity: 0.6;
+   cursor: not-allowed;
+}
+.disabled:hover{
+   color: white;
+   background-color: black;
+}
+
+.ui-tooltip{
+   font-size:10pt;
+   font-family: 'Roboto';
+}

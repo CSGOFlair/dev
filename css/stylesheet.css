@@ -77,12 +77,6 @@ body{
    transition: 0.4s;
 }
 
-button#csf-getstarted-l{
-}
-span#csf-getstarted-l{
-  padding-left: 50%;
-}
-
 .disabled{
    opacity: 0.6;
    cursor: not-allowed;
@@ -95,4 +89,23 @@ span#csf-getstarted-l{
 .ui-tooltip{
    font-size:10pt;
    font-family: 'Roboto';
+}
+
+/*Code Formatting*/
+/*<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">*/
+span.code{ /*Inline code*/
+  font-family: 'Source Code Pro', monospace;
+  background-color: b3b3b3;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+  div.code{ /*Block of code (not inline with normal text)*/
+  font-family: 'Source Code Pro', monospace;
+  background-color: b3b3b3;
+  border-radius: 10px;
+  line-height: 20px;
+  padding: 3px 10px 3px 10px;
+  max-width: 300px; /*Adjust inline as needed with !important*/
+  word-wrap: break-word;
 }

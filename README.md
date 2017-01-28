@@ -11,5 +11,3 @@
 
 # Contribute
 See our Style Guide and Contributing rules
-
-

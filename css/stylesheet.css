@@ -33,7 +33,7 @@
 /*End Grid*/
 
 body{
-   background-color: #000000;
+   background-color: black;
 }
 
 .csf-social-b{
@@ -95,14 +95,14 @@ body{
 /*<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">*/
 span.code{ /*Inline code*/
   font-family: 'Source Code Pro', monospace;
-  background-color: b3b3b3;
+  background-color: rgba(179, 179, 179, 0.3);
   padding-left: 3px;
   padding-right: 3px;
 }
 
   div.code{ /*Block of code (not inline with normal text)*/
   font-family: 'Source Code Pro', monospace;
-  background-color: b3b3b3;
+  background-color: rgba(179, 179, 179, 0.3);
   border-radius: 10px;
   line-height: 20px;
   padding: 3px 10px 3px 10px;

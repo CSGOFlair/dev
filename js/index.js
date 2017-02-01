@@ -8,7 +8,7 @@ $(document).ready(function(){
    $('.csf-social-b').addClass("animated fadeIn");
    $('.csf-logo-s').css({"font-family": "\'Roboto\'", "font-size": "20px", "text-align": "center", "margin-top": "-35px"});
    $('.csf-social-h').css({"font-family": "\'Roboto\'", "text-align": "center"});
-   $('.csf-social-b').css({"font-family": "\'Roboto\'", "text-align": "center", "width": "160px", "height": "50px";});
+   $('.csf-social-b').css({"font-family": "\'Roboto\'", "text-align": "center", "width": "160px", "height": "50px"});
    $('#s-linktarget':nth-child(1)).css("color", "red");
 });
 

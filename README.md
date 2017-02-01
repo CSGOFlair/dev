@@ -10,4 +10,5 @@
 </p>
 
 # Contributing
+
 Currently, contrubition is closed to anyone but project admins. You can apply to become a developer of the CSGOFlair project by <a href="mailto:csgoflair@gmail.com">clicking here.</a>

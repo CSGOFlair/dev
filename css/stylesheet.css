@@ -13,18 +13,12 @@
    clear:both;
 }
 
-/*Applies to all classes that start with col*/
+/*Set for 3 columns, set relative to container width 100%(/col#)*/
 /*[class*='col-'] {
    float: left;
    min-height: 1px;
-}*/
-
-/*Set for 3 columns, set relative to container width 100%(/col#)*/
-[class*='col-'] {
-   float: left;
-   min-height: 1px;
    width: 33.33%;
-}
+}*/
 
 /*Setting border box on all elements inside the grid*/
 .grid-container *{

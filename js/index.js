@@ -2,14 +2,38 @@
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
    // window.location.replace("csgoflair.github.io"); would be mobile url later
    console.log("Mobile Redirect Placeholder");
+   alert('We don\'t yet have a mobile version yet, but we\'ll let you know when we do')
 }
 
 $(document).ready(function(){
-   $('.csf-social-b').addClass("animated fadeIn");
-   $('.csf-logo-s').css({"font-family": "\'Roboto\'", "font-size": "20px", "text-align": "center", "margin-top": "-35px"});
-   $('.csf-social-h').css({"font-family": "\'Roboto\'", "text-align": "center"});
-   $('.csf-social-b').css({"font-family": "\'Roboto\'", "text-align": "center", "width": "160px", "height": "50px"});
-   $('#s-linktarget':nth-child(1)).css("color", "red");
+   $('body').css('font-family', 'Roboto');
+   $('.csf-social-b').addClass('animated fadeIn');
+   $('.csf-logo-s').css({
+      'font-size' '20px',
+      'text-align': 'center',
+      'margin-top': '-35px'
+   });
+
+   $('.csf-social-h').css({
+      'text-align': 'center'
+   });
+
+   $('.csf-social-b').css({
+      'text-align': 'center',
+      'width': '160px',
+      'height': '50px'
+   });
+
+   $('.col').css({
+      'float': 'left',
+      'min-height': '1px',
+   });
+
+   $('.csf-s-col-1').css({
+      'width': '33.33%',
+      'text-align': 'center'
+   });
+
 });
 
 
@@ -52,11 +76,6 @@ $(document).ready(function(){
 // 	}
 // }
 
-window.onload = function() {
-  if(window.innerHeight > window.innerWidth) {
-  alert('WARNING! This page looks sort of wierd on mobile devices, it is reccomended that you swap to landscape mode and continue.');
-}
-};
 
 function getStarted() {
    alert('Unfortunately, this website is not complete yet. This link will be clickable when it is finished. For now, you can help contribute to the project by clicking the "GitHub" link below.');

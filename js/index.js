@@ -9,7 +9,7 @@ $(document).ready(function(){
    $('body').css('font-family', 'Roboto');
    $('.csf-social-b').addClass('animated fadeIn');
    $('.csf-logo-s').css({
-      'font-size' '20px',
+      'font-size': '20px',
       'text-align': 'center',
       'margin-top': '-35px'
    });

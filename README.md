@@ -11,4 +11,4 @@
 
 # Contributing
 
-Currently, contrubition is closed to anyone but project admins. You can apply to become a developer of the CSGOFlair project by [mailto:csgoflair@gmail.com](clicking here).
+Currently, contrubition is closed to anyone but project admins. You can apply to become a developer of the CSGOFlair project by clicking [here](mailto:csgoflair@gmail.com).

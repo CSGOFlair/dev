@@ -2,7 +2,6 @@
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
    // window.location.replace("csgoflair.github.io"); would be mobile url later
    console.log("Mobile Redirect Placeholder");
-   alert('We don\'t yet have a mobile version yet, but we\'ll let you know when we do')
 }
 
 $(document).ready(function(){
@@ -26,7 +25,7 @@ $(document).ready(function(){
 
    $('.col').css({
       'float': 'left',
-      'min-height': '1px',
+      'min-height': '1px'
    });
 
    $('.csf-s-col-1').css({
@@ -77,6 +76,4 @@ $(document).ready(function(){
 // }
 
 
-function getStarted() {
-   alert('Unfortunately, this website is not complete yet. This link will be clickable when it is finished. For now, you can help contribute to the project by clicking the "GitHub" link below.');
-}
+function getStarted() {}

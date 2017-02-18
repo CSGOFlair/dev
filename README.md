@@ -6,9 +6,8 @@
 <a href="https://codeclimate.com/github/CSGOFlair/dev"><img src="https://codeclimate.com/github/CSGOFlair/dev/badges/gpa.svg" /></a>
 <a href="https://codeclimate.com/github/CSGOFlair/dev"><img src="https://codeclimate.com/github/CSGOFlair/dev/badges/issue_count.svg" /></a>
 <br>
-<a href="#" onClick="alert('Thank you for your generosity, but donations to CSGOFlair are not currently setup.');"><img src="https://img.shields.io/badge/Donate-Paypal-yellowgreen.svg?style=flat-square"></a>
-</p>
 
-# Contributing
+# Contribute/Report Bugs
 
-Currently, contrubition is closed to anyone but project admins. You can apply to become a developer of the CSGOFlair project by clicking [here](mailto:csgoflair@gmail.com).
+See CONTRIBUTING.md
+

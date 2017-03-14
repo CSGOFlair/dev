@@ -11,8 +11,3 @@
 
 See CONTRIBUTING.md
 
-# Redesign:
-\- Minimalisim
-\- Hero image slideshow in bg right side
-\- Header next to intro video
-\- Color palatte: 

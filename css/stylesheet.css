@@ -20,20 +20,18 @@
    width: 33.33%;
 }*/
 
-/*Setting border box on all elements inside the grid
-Why do we need this? It seems to size itself properly
-without it.
+/*Setting border box on all elements inside the grid*/
 .grid-container *{
    box-sizing: border-box;
 }
-End Grid*/
+/*End Grid*/
 
 body{
    background-color: #000000;
 }
 
 .csf-social-b{
-   background-color: #00ffffff; /*Transparent*/
+   background-color: rgba(255,255,255, 0.0); /*Transparent*/
    border-color: white;
    border-radius: 4px;
    color: white;
@@ -44,7 +42,7 @@ body{
 }
 
 .csf-primary-b{
-   background-color: #00ffffff; /*Transparent*/
+   background-color: rgba(255,255,255, 0.0); /*Transparent*/
    border-color: white;
    color: white;
    margin-top: 20px;
@@ -60,14 +58,14 @@ body{
    align-items: center;
 }
 
-.csf-logo-s{
+.csf-logo-s {
    color: white;
    font-family: 'Roboto';
    text-align: center;
    font-size: 35px;
 }
 
-.csf-social-b:hover{
+.csf-social-b:hover {
    color: black;
    background-color: white;
    transition: 0.4s;

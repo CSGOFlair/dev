@@ -1,3 +1,8 @@
 .fullpagewrapper {
   margin-left: 20px;
 }
+
+#footer {
+   position:absolute;
+   bottom:20;
+}
